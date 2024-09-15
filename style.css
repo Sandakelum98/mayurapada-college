@@ -1,0 +1,491 @@
+/*
+Theme Name: Charith Jayathilaka
+Theme URI: physicstalk.lk
+Author: Sameera
+Author URI: https://itpathfinders.com
+Description: This theme has been designed for Charith Jayathilaka's website
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jayathilaka
+Domain Path: /languages/
+Tags: one-column, two-columns, custom-menu, full-width-template, theme-options, threaded-comments,
+*/
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #7d84ab;
+	font-weight: 400;
+	margin: 0;
+}
+* {
+	background-repeat: no-repeat;
+}
+a {
+	-webkit-transition: ease-out all 0.3s;
+	-moz-transition: ease-out all 0.3s;
+	transition: ease-out all 0.3s;
+}
+a {
+	text-decoration: none;
+	color: #32364a;
+}
+a:hover, a:active {
+	color: #991e5d;
+}
+p {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+hr {
+	border-top: 1px solid #d9d9d9;
+	border-bottom: none;
+	margin: 20px 0;
+}
+h1, h2, h3, h4, .h4, h5, h6 {
+	margin-bottom: 0;
+	font-family: "Abril Fatface", serif;
+}
+h1, .h1 {
+	font-size: 65px;
+	line-height: 130px;
+	font-weight: 700;
+}
+h2, .h2 {
+	font-size: 55px;
+	line-height: 110px;
+	font-weight: 700;
+}
+h3, .h3 {
+	font-size: 40px;
+	line-height: 55px;
+	font-weight:700;
+}
+h4, .h4 {
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: 700;
+}
+h5, .h5 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+}
+.color-black {
+	color: #232323;
+}
+.color-white, .color-white a {
+	color: #ffffff!important;
+}
+.color-maroon {
+	color: #991e5d;
+}
+.color-yellow {
+	color: #cdc620;
+}
+
+.bg-maroon {
+	background-color: #43102a;
+}
+.bg-black-transparent {
+	background-color: #00000040;
+}
+.bg-grey {
+	background-color: #f8fafe;
+}
+
+.p-t-5 {
+	padding-top: 5px;
+}
+.p-b-5 {
+	padding-bottom: 5px;
+}
+.p-b-10 {
+	padding-bottom: 10px;
+}
+.p-t-10 {
+	padding-top: 10px;
+}
+.p-t-15 {
+	padding-top: 15px;
+}
+.p-b-15 {
+	padding-bottom: 15px;
+}
+.p-t-20 {
+	padding-top: 20px;
+}
+.p-b-20 {
+	padding-bottom: 20px;
+}
+.p-b-25 {
+	padding-bottom: 25px;
+}
+.p-t-30 {
+	padding-top: 30px;
+}
+.p-b-30 {
+	padding-bottom: 30px;
+}
+.p-t-40 {
+	padding-top: 40px;
+}
+.p-b-40 {
+	padding-bottom: 40px;
+}
+.p-t-50 {
+	padding-top: 50px;
+}
+.p-b-50 {
+	padding-bottom: 50px;
+}
+.p-t-60 {
+	padding-top: 60px;
+}
+.p-b-60 {
+	padding-bottom: 60px;
+}
+.p-t-70 {
+	padding-top: 70px;
+}
+.p-b-70 {
+	padding-bottom: 70px;
+}
+.p-t-80 {
+	padding-top: 80px;
+}
+.p-b-80 {
+	padding-bottom: 80px;
+}
+.p-t-90 {
+	padding-top: 90px;
+}
+.p-b-90 {
+	padding-bottom: 90px;
+}
+.p-t-100 {
+	padding-top: 100px;
+}
+.p-b-100 {
+	padding-bottom: 100px;
+}
+.p-t-110 {
+	padding-top: 110px;
+}
+.p-b-110 {
+	padding-bottom: 110px;
+}
+.p-t-120 {
+	padding-top: 120px;
+}
+.p-b-120 {
+	padding-bottom: 120px;
+}
+.p-t-150 {
+	padding-top: 150px;
+}
+.p-b-150 {
+	padding-bottom: 150px;
+}
+.p-b-0 {
+	padding-bottom: 0;
+}
+.p-t-0 {
+	padding-bottom: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.m-t-10 {
+	margin-top: 10px;
+}
+.m-b-10 {
+	margin-bottom: 10px;
+}
+.m-t-20 {
+	margin-top: 20px;
+}
+.m-b-20 {
+	margin-bottom: 20px;
+}
+.m-t-30 {
+	margin-top: 30px;
+}
+.m-b-30 {
+	margin-bottom: 30px;
+}
+.m-b-40 {
+	margin-bottom: 40px;
+}
+.m-b-50 {
+	margin-bottom: 50px;
+}
+.m-b-60 {
+	margin-bottom: 60px;
+}
+.no-margin {
+	margin: 0;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.justify {
+	text-align:justify;
+}
+.clearfix {
+	clear: both;
+}
+#main {
+	overflow: hidden;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.primary-btn {
+	display: inline-block;
+	background: #991e5d;
+	padding: 6px 35px;
+	border: 1px solid transparent;
+	color: #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.primary-btn:hover {
+	border-color: #991e5d;
+	background: #fff;
+	color: #991e5d;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.multi-para p {
+	margin-bottom: 25px;
+}
+
+/*header-upper*/
+.header-upper-box-cont {
+	display: flex;
+	align-items: center;
+}
+.header-upper-box {
+	font-size: 14px;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	margin-right: 35px;
+}
+.header-upper-box a {
+	color: #ffffff;
+}
+.header-upper-box:hover a {
+	color: #e7df1f;
+	/*color: #faf22d;*/
+}
+.header-upper-box i {
+	margin-right: 10px;
+}
+/*header*/
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo-container img {
+	width: 65px;
+}
+.header-menu {
+	display: inline-block;
+}
+.header-menu li {
+	display: inline-block;
+	position: relative;
+}
+.header-menu li a {
+	display: inline-block;
+	padding: 25px 13px;
+	font-weight: 600;
+	position: relative;
+	font-size: 16px;
+}
+.header-menu .header-primary-btn {
+	background: #991e5d;
+	padding: 6px 30px;
+	border: 1px solid transparent;
+	color: #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+.header-menu .header-primary-btn:hover {
+	border-color: #991e5d;
+	background: #fff;
+	color: #991e5d;
+}
+/*home*/
+.intro-img {
+	height: 600px;
+	object-fit: cover;
+	width: 100%;
+}
+.primary-title {
+	font-size: 50px;
+	line-height: 100px;
+	color: #43102a;
+	margin-bottom: 20px;
+}
+/*event*/
+.content-with-padding {
+	padding: 0 160px 50px;
+	text-align: center;
+}
+.content-event-padding {
+	padding: 0 95px;
+}
+.event-item {
+	display: flex;
+	align-items: center;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+.event-left {
+	display: flex;
+	width: 200px;
+	height: 160px;
+	background-color: #991e5d;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+.event-list .event-item:nth-child(2n) .event-left {
+	background-color: #e7df1f;
+}
+.event-left h6 {
+	font-size: 55px;
+	line-height: 1;
+	margin-bottom: 7px;
+	display: block;
+}
+.event-right {
+	padding-left: 60px;
+}
+.event-title {
+	font-size: 32px;
+	line-height: 45px;
+	font-weight: 400;
+	color: #575b6c;
+	margin-bottom: 15px;
+}
+.event-more-info {
+	display: flex;
+	align-items: center;
+}
+.event-more-info-item {
+	display: flex;
+	align-items: center;
+	margin-right: 35px;
+	font-size: 17px;
+}
+.event-more-info-item p {
+	margin-left: 8px;
+}
+/*life at mayurapada*/
+.container-full {
+	max-width: 100% !important;
+	padding: 0 !important;
+}
+.no-col-padding .col-md-7, .no-col-padding .col-md-5 {
+	padding: 0;
+}
+.life-at-left {
+	padding: 100px 110px;
+	background-image: url("img/img-life-at-mayurapada-bg-2.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.life-at-right {
+	min-height: 620px;
+	height: 100%;
+}
+.life-at-right img {
+	height: 100%;
+	object-fit: cover;
+}
+/*news section*/
+.news-item {
+	border-radius: 10px;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+.news-img {
+	height: 350px;
+	overflow: hidden;
+}
+.news-item .news-img img {
+	height: 350px;
+	width: 100%;
+	object-fit: cover;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	transition: .3s;
+}
+.news-item:hover .news-img img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.news-details {
+	border: 1px solid #f2f3f4;
+	border-radius: 0 0 10px 10px;
+	border-top: 0;
+	padding: 20px 20px
+}
+.news-details h5 {
+	color: #43102a;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 61px;
+	text-align: left;
+}
+.news-details a:hover h5 {
+	color: #991e5d;
+}
+.news-info-item {
+	display: flex;
+	align-items: center;
+	margin-right: 35px;
+	font-size: 14px;
+}
+.news-info-item i {
+	margin-right: 10px;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+}
+
+
+@media only screen and (max-width:992px) {
+
+}
+
+@media only screen and (max-width:767px) {
+}
