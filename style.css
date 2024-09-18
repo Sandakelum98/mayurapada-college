@@ -276,13 +276,14 @@ ul {
 .header-upper-box-cont {
 	display: flex;
 	align-items: center;
+	justify-content: end;
 }
 .header-upper-box {
 	font-size: 14px;
 	color: #ffffff;
 	display: flex;
 	align-items: center;
-	margin-right: 35px;
+	margin-left: 35px;
 }
 .header-upper-box a {
 	color: #ffffff;
@@ -476,7 +477,53 @@ ul {
 .news-info-item i {
 	margin-right: 10px;
 }
-
+/*footer*/
+.footer-logo {
+	width: 70px;
+	margin-bottom: 20px;
+}
+.small-text {
+	font-size: 16px;
+	font-weight: 300;
+}
+.footer-center {
+	padding-left: 80px;
+}
+.footer-title {
+	font-weight: 400;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.footer-link-list li {
+	margin-bottom: 10px;
+}
+.footer-link-list a {
+	font-size: 16px;
+	font-weight: 300;
+}
+.footer-link-list a:hover, .footer-contact-info a:hover {
+	color: #e7df1f !important;
+}
+.footer-contact-info {
+	margin-bottom: 20px;
+	position: relative;
+}
+.footer-contact-info i {
+	padding-right: 20px;
+	font-size: 19px;
+	line-height: 20px;
+	position: absolute;
+	left: 0px;
+	top: 5px;
+}
+.footer-contact-info a, .footer-contact-info p {
+	padding-left: 40px;
+	font-size: 16px;
+	font-weight: 300;
+}
+.footer-socket-cont {
+	border-top: 1px solid #ffffff47;
+}
 
 
 @media only screen and (max-width: 1199px) {
