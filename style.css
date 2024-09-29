@@ -13,7 +13,7 @@ Tags: one-column, two-columns, custom-menu, full-width-template, theme-options, 
 */
 body {
 	font-family: "Poppins", sans-serif;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 28px;
 	color: #7d84ab;
 	font-weight: 400;
@@ -90,6 +90,12 @@ h5, .h5 {
 
 .bg-maroon {
 	background-color: #43102a;
+}
+.bg-maroon-light {
+	background-color: #991e5d;
+}
+.bg-yellow {
+	background-color: #e7df1f;
 }
 .bg-black-transparent {
 	background-color: #00000040;
@@ -416,6 +422,7 @@ ul {
 	background-image: url("img/img-life-at-mayurapada-bg-2.jpg");
 	background-position: center;
 	background-size: cover;
+	height: 100%;
 }
 .life-at-right {
 	min-height: 620px;
@@ -478,6 +485,11 @@ ul {
 	margin-right: 10px;
 }
 /*footer*/
+.footer {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#43102a+43,000000+100 */
+	background: linear-gradient(to bottom,  #43102a 43%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
 .footer-logo {
 	width: 70px;
 	margin-bottom: 20px;
@@ -524,6 +536,62 @@ ul {
 .footer-socket-cont {
 	border-top: 1px solid #ffffff47;
 }
+/*about use*/
+.breadcrumb-section {
+	padding: 50px 0;
+	background-image: url("img/bradcam.png");
+}
+.about-sec-right {
+	padding-left: 50px;
+}
+.vision-mission-cont {
+
+}
+.vision-mission-item {
+	display: flex;
+	margin-bottom: 50px;
+	border-radius: 8px;
+	overflow: auto;
+}
+.vision-mission-item .left-area {
+	min-width: 220px;
+	position: relative;
+}
+.vision-mission-bg-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.vision-mission-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.vision-mission-item .right-area {
+	padding: 30px 50px;
+	background-color: #ffffff;
+}
+.vision-mission-sub {
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #e7df1f;
+}
+.vision-mission-title {
+	font-size: 34px;
+	line-height: 48px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #43102a;
+}
+.history-cont img {
+	display: inline;
+	float: right;
+	width: 400px;
+	margin: 0 0 50px 70px;
+}
+
 
 
 @media only screen and (max-width: 1199px) {
